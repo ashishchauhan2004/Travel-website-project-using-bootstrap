@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    background-attachment: fixed;
+}
+.logo{
+height: 70px;
+width: 70px;
+margin-left: 305px;
+}
+.main{
+height: 100vh;
+width: 100%;
+background-image: url("https://e0.pxfuel.com/wallpapers/168/326/desktop-wallpaper-travel-the-world-hot-air-balloons-%E2%9D%A4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.register-btn{
+margin-right: 365px;
+}
+.smooch-regular {
+    font-family: "Smooch", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 90px;
+    color: #ffd500;
+    display: flex;
+    justify-content: center;
+    margin-top: 280px;
+
+  }
+  .line{
+    font-size: 55px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .line-2{
+    display: flex;
+    justify-content: center;
+    
+  }
+  .ocean{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+  }
+  input{
+    height: 90px;
+    margin: 0;
+  }
+  .searchbtn{
+    height: 90px;
+  }
+  .ashish{
+    border-radius: 0px;
+  }

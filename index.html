@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap project</title>
+    <link rel="icon" href="https://i.ibb.co/6tcTXBm/Ashish-tours-travel-logo-removed.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="main">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <img src="https://i.ibb.co/6tcTXBm/Ashish-tours-travel-logo-removed.png" class="img logo " alt="logo">
+            
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav gap-4  ">
+              <li class="nav-item">
+                <a class="nav-link active text-white ms-5 " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Trending Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white  " href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="btn  text-dark bg-white rounded-5 register-btn  " >Register Now</button>
+        </div>
+      </nav>
+      <hr>
+      <h1 class="smooch-regular">Let's Explore</h1>
+      <h2 class="line fw-bold">Where Would You Like To Go ?</h2>
+      <h6 class="line-2 fw-bolder mt-4  ">Checkout Beautiful Places Around the World.</h6>
+      
+      
+      <form class="row g-3 needs-validation ocean mt-5 ashish" novalidate>
+        <div class="col-2 p-0 ashish">
+          <label for="validationCustom01" class="form-label">Location</label>
+          <input type="text" class="form-control" id="validationCustom01" value="Enter Destination" required>
+          <div class="valid-feedback">
+          </div>
+        </div>
+        <div class="col-2 me-0 ms-0 p-0 ashish rounded-0">
+          <label for="validationCustom02" class="form-label">Date From</label>
+          <input type="text" class="form-control" id="validationCustom02" value="Enter Date" required>
+          <div class="valid-feedback">
+          </div>
+        </div>
+        <div class="col-2 me-0 ms-0 p-0 ashish rounded-0">
+          <label for="validationCustomUsername" class="form-label">Guests</label>
+          <div class="input-group has-validation">
+            
+            <input type="text" class="form-control" id="validationCustomUsername"  value="Add Guests" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-warning  col-2 mt-5 searchbtn ashish"><i class="fa-solid fa-magnifying-glass"></i>SEARCH</button>
+      </form>
+    </div>
+</body>
+</html>
