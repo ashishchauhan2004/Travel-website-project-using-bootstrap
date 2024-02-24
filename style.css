@@ -59,6 +59,33 @@ margin-right: 365px;
   .searchbtn{
     height: 90px;
   }
+
   .ashish{
     border-radius: 0px;
+  }
+  .about{
+    height: 85vh;
+    width: 100%;
+  }
+  .about2{
+    color: black;
+    font-size: 50px;
+    
+  }
+  .img2{
+    position: relative;
+    border-radius: 50%;
+    left: 1140px;
+    bottom: 350px;
+      }
+    .img3{
+      height: 600px;
+      width: 600px;
+  }
+  .textcontent{
+    margin-left: 330px;
+    margin-top: 200px;
+    height: 30vh;
+    width: 33%;
+    align-items: start;
   }
