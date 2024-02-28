@@ -121,3 +121,59 @@ input{
 .img-box{
   margin-top: 95px;
 }
+
+.contact{
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.partition{
+display: flex;
+justify-content: center;
+justify-content: space-between;
+
+}
+.contact-input{
+  height: 40px;
+  width: 355px;
+  margin-left: -42px;
+}
+.text-area{
+  width: 744px;
+  height: 370px;
+  margin-top: 84px;
+
+}
+.contact-msg{
+  height: 220px;
+  width: 740px;
+  margin-left: -42px;
+}
+.contact-text{
+  margin-top: 80px;
+  width: 34%;
+  height: 350px;
+  margin-left: 50px;
+
+}
+.c-button{
+  background-color: #ffd500;
+  height: 50px;
+  width: 230px;
+  border-radius: 8px;
+  margin-top: 45px;
+  border: none;
+
+}
+.c-textone{
+  font-family: "Smooch", cursive;
+  font-size: 40px;
+  color: #ffd500;
+  font-weight: 400;
+}
+.c-texttwo{
+  
+  font-size: 51px;
+  color: #000000;
+}
